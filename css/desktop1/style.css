@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+    max-width: 1320px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+header {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5385c1;
+    height: auto;
+    color: white;
+    font-family:  'Raleway', sans-serif;
+}
+header .logo {
+    float: left;
+}
+header nav {
+    float: right;
+}
+ul li{
+    display: inline;
+    line-height: 1.6;
+    margin: 8px;
+  }
+  .hero-section {
+      text-align: center;
+      font-family:  'Raleway', sans-serif;
+      color: #5385c1;
+      font-weight: 100;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+    .hero-section p {
+        color: #9a9a9a;
+    }
+    .paragrafi {
+        text-align: left;
+        width: 100%;
+        font-family:  'Raleway', sans-serif;
+        color: #9a9a9a;
+        line-height: 1.6;
+    }
+    .sekcija {
+        float: left;
+        width: 50%;
+        text-align: left;
+        color: #5385c1;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .sekcija p {
+        color: #9a9a9a;
+    }
+    .button {
+        background-color: #5385c1;
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 15px 28px;
+        text-decoration: none;
+        font-family:  'Raleway', sans-serif;
+        display: inline-block;
+    }
+.levo {
+    font-family: 'Raleway', sans-serif;
+    color: #9a9a9a;
+    margin-top: 50px;
+    font-size: small;
+}
+
+.desno{
+    float: right;
+    margin:auto;
+    word-spacing: 20px;
+}
+
+
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  @media only screen and (max-width: 768px){
+    .container {
+        max-width: 768px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+.paragrafi {
+    max-height: 100px;
+    float: none;
+    text-align: center;
+}
+.sekcija {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.button {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.desno{
+    text-align: center;
+    float: none;
+    padding-top: 30px;
+}
+  .levo {
+      text-align: center;
+      float: none;
+  }
+}
